@@ -17,6 +17,7 @@
     <dimen name="length40">40dp</dimen>
     <dimen name="length0_5">0.5dp</dimen>
     <dimen name="length16">16dp</dimen>
+    <dimen name="length24">24dp</dimen>
     <dimen name="length26">26dp</dimen>
     <dimen name="length32">32dp</dimen>
     <dimen name="length12">12dp</dimen>

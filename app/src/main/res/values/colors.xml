@@ -7,4 +7,8 @@
     
     <color name="colorAPP">#518EFF</color><!--APP主题色-->
     <color name="colorWhite">#FFFFFF</color><!--纯白色-->
+    <color name="colorBlack">#000000</color><!--纯黑色-->
+    
+    <color name="colorLoginBlack">#2B2B2B</color><!--登录界面字体颜色-->
+    <color name="colorLoginButtonClick">#4EAEFE</color><!--登录按钮点击色-->
 </resources>
