@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">KuangJia</string>
+    <!--通用提示-->
+    <string name="toast_no_intent">没有网络连接，请检查网络后重试</string>
     <!--获取权限dialog提示-->
     <string name="permission_explain">你已拒绝访问%1$s权限,请前往设置中心打开权限</string>
     <string name="per_setting">设置</string>
