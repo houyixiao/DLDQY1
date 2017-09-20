@@ -10,6 +10,10 @@ import java.util.ArrayList;
 
 public class LoginActivity extends BaseActivity {
 
+    /**
+     *
+     * @param savedInstanceState
+     */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
