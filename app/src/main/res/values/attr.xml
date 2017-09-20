@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 圆角弧度 -->
+    <attr name="border_radius" format="dimension"/>
+    <!-- 圆角类型 -->
+    <attr name="type" >
+        <!--圆形-->
+        <enum name="circle" value="0"/>
+        <!--圆角-->
+        <enum name="round" value="1"/>
+    </attr>
+    <!-- imageView 属性 -->
+    <declare-styleable name="FilletImageView">
+        <attr name="border_radius"/>
+        <attr name="type"/>
+    </declare-styleable>
+
+
+</resources>
