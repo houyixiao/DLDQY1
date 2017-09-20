@@ -22,7 +22,6 @@ import com.ts.dldqy.kuangjia.utils.permissionutils.PerUtils;
 import com.ts.dldqy.kuangjia.utils.permissionutils.PerimissionsCallback;
 import com.ts.dldqy.kuangjia.utils.permissionutils.PermissionEnum;
 import com.ts.dldqy.kuangjia.utils.permissionutils.PermissionManager;
-import com.ts.dldqy.kuangjia.utils.viewinject.ViewInjectUtils;
 import com.ts.dldqy.kuangjia.view.LoadingDialog;
 import com.ts.dldqy.kuangjia.view.SCLoadingDialog;
 
@@ -52,7 +51,6 @@ public class BaseActivity extends AppCompatActivity {
         }
         tm = (TelephonyManager) getBaseContext().getSystemService(Context.TELEPHONY_SERVICE);
 
-        ViewInjectUtils.inject(this);
     }
     
     /**
