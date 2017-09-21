@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length75"
+        android:background="@color/colorAPP"
+        android:orientation="vertical"
+        android:elevation="@dimen/length4">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/length20"
+            android:fitsSystemWindows="true"
+            android:minHeight="?attr/actionBarSize" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/length50">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:paddingRight="@dimen/length16"
+                android:paddingLeft="@dimen/length16"
+                android:paddingTop="@dimen/length9"
+                android:paddingBottom="@dimen/length9"
+                style="@style/CirclrRippButton"
+                android:src="@mipmap/back"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size18"
+                android:textColor="@color/colorWhite"
+                android:text="@string/large_tax_titel"
+                android:layout_centerInParent="true"
+                android:ellipsize="marquee"
+                android:scrollHorizontally="true"
+                android:focusable="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusableInTouchMode="true"
+                android:singleLine="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
