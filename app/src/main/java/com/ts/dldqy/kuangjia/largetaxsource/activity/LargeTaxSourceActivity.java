@@ -20,10 +20,5 @@ public class LargeTaxSourceActivity extends BaseActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_large_tax);
         ExitApplication.getInstance().addActivity(this);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            getWindow().setFlags(
-                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
-                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
-        }
     }
 }
