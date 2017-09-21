@@ -6,9 +6,14 @@
     <string name="permission_explain">你已拒绝访问%1$s权限,请前往设置中心打开权限</string>
     <string name="per_setting">设置</string>
     <string name="per_cancle">取消</string>
-    <!--登录界面-->
+    <!--登录界面相关-->
     <string name="login_app">大企业税收服务与管理</string>
     <string name="login_user">请输入手机号</string>
     <string name="login_pwd">请输入密码</string>
     <string name="login_button">登    录</string>
+    <string name="login_user_null">用户名不能为空</string>
+    <string name="login_pwd_null">密码不能为空</string>
+    
+    
+    
 </resources>
