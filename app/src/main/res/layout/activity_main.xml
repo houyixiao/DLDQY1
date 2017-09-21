@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <RelativeLayout
-        android:id="@+id/topRelative"
+        android:id="@+id/loginTopRelative"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@mipmap/login_bg"
@@ -40,7 +40,7 @@
         </LinearLayout>
     </RelativeLayout>
     <LinearLayout
-        android:id="@+id/bottomLinear"
+        android:id="@+id/loginBotLinear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -62,7 +62,9 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:clickable="true"
-            android:background="@null"/>
+            android:background="@null"
+            android:textColor="@color/colorAPP"
+            android:textCursorDrawable="@null"/>
 
         <com.ts.dldqy.kuangjia.view.LineEditText
             android:id="@+id/loginEditTextPwd"
@@ -80,7 +82,9 @@
             android:focusable="true"
             android:focusableInTouchMode="true"
             android:clickable="true"
-            android:background="@null"/>
+            android:background="@null"
+            android:textColor="@color/colorAPP"
+            android:textCursorDrawable="@null"/>
 
         <Button
             android:id="@+id/loginButton"

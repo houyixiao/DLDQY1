@@ -11,6 +11,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ListView;
@@ -270,6 +271,25 @@ public class BaseActivity extends AppCompatActivity {
         return scmDialog;
     }
 
+    /**
+     * 获取控件的宽度或高度
+     */
+    protected float viewHeight(View view){
+        int w = View.MeasureSpec.makeMeasureSpec(0,View.MeasureSpec.UNSPECIFIED);
+        int h = View.MeasureSpec.makeMeasureSpec(0,View.MeasureSpec.UNSPECIFIED);
+        view.measure(w, h);
+        float jiandanwidth =view.getMeasuredHeight();
+        return jiandanwidth;
+    }
+    /**
+     * 获取屏幕高宽
+     * @return
+     */
+    protected DisplayMetrics phoneSize(){
+        DisplayMetrics metric = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metric);
+        return metric;
+    }
     /**
      * 杀掉当前Activity时，需要进行ReView 包括Handler
      * 否则可能会出现窗体泄露等情况
