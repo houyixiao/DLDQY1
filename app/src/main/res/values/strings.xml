@@ -13,7 +13,8 @@
     <string name="login_button">登    录</string>
     <string name="login_user_null">用户名不能为空</string>
     <string name="login_pwd_null">密码不能为空</string>
-    
+    <!--税源大户界面相关-->
+    <string name="large_tax_titel">税源大户</string>
     
     
 </resources>

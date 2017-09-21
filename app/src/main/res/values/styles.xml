@@ -29,7 +29,7 @@
 
     <!-- 刚进入app解决黑屏现象，需要为首个启动Activity设置此Style -->
     <style name="StartAppTheme" parent="AppTheme">
-        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
