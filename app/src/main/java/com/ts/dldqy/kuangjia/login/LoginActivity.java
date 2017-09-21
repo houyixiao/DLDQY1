@@ -14,6 +14,7 @@ import android.widget.RelativeLayout;
 
 import com.ts.dldqy.kuangjia.R;
 import com.ts.dldqy.kuangjia.base.BaseActivity;
+import com.ts.dldqy.kuangjia.base.ExitApplication;
 import com.ts.dldqy.kuangjia.utils.Utils;
 import com.ts.dldqy.kuangjia.view.LineEditText;
 
@@ -206,4 +207,9 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         animator.setDuration(time).start();
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        ExitApplication.getInstance().exit(context);
+    }
 }
