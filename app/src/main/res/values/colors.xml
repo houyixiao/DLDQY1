@@ -11,4 +11,6 @@
     
     <color name="colorLoginBlack">#2B2B2B</color><!--登录界面字体颜色-->
     <color name="colorLoginButtonClick">#4EAEFE</color><!--登录按钮点击色-->
+    <color name="colorHomePageBot">#D7D7D7</color><!--首页底部颜色-->
+    <color name="colorHomePageBotTextNormal">#818181</color><!--首页底部未选中字体颜色-->
 </resources>

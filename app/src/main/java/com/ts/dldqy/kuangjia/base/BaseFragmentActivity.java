@@ -264,23 +264,6 @@ public class BaseFragmentActivity extends FragmentActivity {
         scmDialog.setCancelable(false);
         return scmDialog;
     }
-
-    /**
-     * 杀掉当前Activity时，需要进行ReView 包括Handler
-     * 否则可能会出现窗体泄露等情况
-     */
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if(loadDialog()!=null){
-            loadDialog().dimiss();
-        }
-        if(popupWindow!=null){
-            popupWindow.dismiss();
-        }
-        if(scloadDialog()!=null){
-            scloadDialog().dimiss();
-        }
-    }
+    
 
 }

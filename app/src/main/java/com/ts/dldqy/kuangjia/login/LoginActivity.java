@@ -2,6 +2,7 @@ package com.ts.dldqy.kuangjia.login;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.text.Editable;
@@ -15,6 +16,7 @@ import android.widget.RelativeLayout;
 import com.ts.dldqy.kuangjia.R;
 import com.ts.dldqy.kuangjia.base.BaseActivity;
 import com.ts.dldqy.kuangjia.base.ExitApplication;
+import com.ts.dldqy.kuangjia.homepage.activity.HomePageActivity;
 import com.ts.dldqy.kuangjia.utils.Utils;
 import com.ts.dldqy.kuangjia.view.LineEditText;
 
@@ -151,6 +153,9 @@ public class LoginActivity extends BaseActivity implements View.OnClickListener 
         }else{
             if(onUserInfoNotNull()){
                 //登录请求
+                Intent intent=new Intent(context, HomePageActivity.class);
+                startActivity(intent);
+                finish();
             }
         }
     }

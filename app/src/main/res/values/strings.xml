@@ -13,6 +13,19 @@
     <string name="login_button">登    录</string>
     <string name="login_user_null">用户名不能为空</string>
     <string name="login_pwd_null">密码不能为空</string>
+    <!--首页相关-->
+    <string name="homepage_bot_homepage">首页</string>
+    <string name="homepage_bot_notes">通讯录</string>
+    <string name="homepage_bot_my">我的</string>
+    <string name="homepage_title">大企业税收服务与管理</string>
+    <string name="homepage_exit">再按一次退出应用</string>
+    <string name="homepage_high_level_dialogue">高层对话</string>
+    <string name="homepage_online_communication">在线交流</string>
+    <string name="homepage_task_management">任务管理</string>
+    <string name="homepage_tax_source_supervision">税源监控</string>
+    <string name="homepage_statistical_query">统计查询</string>
+    <string name="homepage_policies_regulations">政策法规</string>
+    <string name="homepage_reservation_consultation">预约咨询</string>
     <!--税源大户界面相关-->
     <string name="large_tax_titel">税源大户</string>
 

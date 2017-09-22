@@ -6,6 +6,7 @@
     android:orientation="vertical"
     >
     <FrameLayout
+        android:id="@+id/homepageFrameLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
@@ -17,21 +18,47 @@
         android:background="@color/colorAPP"
         />
     <RadioGroup
+        android:id="@+id/homepageRadioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:padding="@dimen/length9">
+        android:padding="@dimen/length6"
+        android:background="@color/colorHomePageBot">
         <RadioButton
+            android:id="@+id/homepageRadioButtonHomePage"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/homepage_bot_homepage"
+            android:drawableTop="@drawable/homepage_bot_homepage"
+            android:drawablePadding="@dimen/length2"
+            android:textColor="@drawable/homepage_bot_textcolor"
+            />
         <RadioButton
+            android:id="@+id/homepageRadioButtonNotes"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/homepage_bot_notes"
+            android:drawableTop="@drawable/homepage_bot_notes"
+            android:drawablePadding="@dimen/length2"
+            android:textColor="@drawable/homepage_bot_textcolor"
+            />
         <RadioButton
+            android:id="@+id/homepageRadioButtonMy"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="@string/homepage_bot_my"
+            android:drawableTop="@drawable/homepage_bot_my"
+            android:drawablePadding="@dimen/length2"
+            android:textColor="@drawable/homepage_bot_textcolor"
+            />
     </RadioGroup>
 </LinearLayout>
